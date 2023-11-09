@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>할인 가격</title>
+  <link rel="stylesheet" href="css/sale.css">
+</head>
+<body>
+  <header><h1>할인 가격 계산 프로그램</h1></header>
+  <main>
+    <div class="wrap">
+      <label for="price">가격</label>
+      <input type="text" id="price" name="price" placeholder="가격을 입력하세요."/>원
+    </div>
+    <div class="wrap">
+      <label for="count">할인율</label>
+      <input type="text" id="count" name="count" placeholder="할인율을 입력하세요."/>%
+    </div>
+    <div>
+      <button type="button" onclick="showPrice()">계산</button>
+    </div>
+    <div id="result"></div>
+  </main>
+  <footer><p>Copyright &copy; 2023 : YOON</p></footer>
+
+  <script src="js/sale.js"></script>
+</body>
+</html>
